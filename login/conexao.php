@@ -1,16 +1,12 @@
-<?php 
+<?php
+$host = 'localhost'; 
+$usuario = 'root'; 
+$senha = ''; 
+$database = 'login'; 
 
-    $host = 'localhost'; 
-    $usario = 'root'; 
-    $senha = ""; 
-    $database = 'login'; 
+$mysqli = new mysqli($host, $usuario, $senha, $database);
 
-    $conn = new mysqli ($host, $usario, $senha, $database);
-
-  
-        if($conn->connect_error){
-            die ("Algo deu errado com a conexão" );
-        }
-
-
+if($mysqli->connect_error){
+    die ("Não deu certo fazer a conexão"); 
+}
 ?>
