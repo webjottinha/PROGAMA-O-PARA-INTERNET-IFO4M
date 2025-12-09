@@ -2,12 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Erro</title>
+    <title>Erroooooo</title>
 </head>
 <body>
     <h2><?php echo $erro; ?></h2>
-
-    <p><a href="index.php">Voltar</a></p>
+    <a href="../index.php"> <button> voltar </button></a>
 </body>
 </html>
 
